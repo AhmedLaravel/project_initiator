@@ -1,0 +1,20 @@
+{
+    "name": "geeker/project_initiatore",
+    "description": "this is a mvc to start my projects in php",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "ProjectInitiator\\": "src",
+            "App\\": "App"
+        }
+    },
+    "authors": [{
+        "name": "AhmedLaravel",
+        "email": "ahmed2012ramadan@gmail.com"
+    }],
+    "minimum-stability": "stable",
+    "require": {
+        "vlucas/phpdotenv": "^5.4",
+        "symfony/var-dumper": "^6.0"
+    }
+}
